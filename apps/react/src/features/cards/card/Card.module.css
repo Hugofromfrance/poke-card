@@ -1,0 +1,7 @@
+.notOwned {
+    opacity: .5;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
