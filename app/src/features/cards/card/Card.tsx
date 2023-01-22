@@ -4,8 +4,8 @@ import styles from './Card.module.css';
 import {
     toggleOwnedCard,
     toggleOwnedCardFromStore,
-} from './../../../features/cards/cardsSlice';
-import { useAppDispatch } from './../../../app/hooks';
+} from '../cardsSlice';
+import { useAppDispatch } from '../../../app/hooks';
 export function Card(props: any) {
     const card = props.card;
     const dispatch = useAppDispatch();
